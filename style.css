@@ -1,0 +1,83 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #fefefe;
+  color: #333;
+  line-height: 1.6;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #6a0dad;
+  padding: 1rem 2rem;
+  color: white;
+}
+
+nav h1 {
+  font-size: 1.8rem;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 1.5rem;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.hero {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  padding: 2rem;
+  background: linear-gradient(to right, #ffe5ec, #e0c3fc);
+}
+
+.hero-img {
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+  margin-right: 2rem;
+  object-fit: cover;
+  box-shadow: 0 0 15px rgba(0,0,0,0.2);
+}
+
+.hero-text {
+  flex: 1;
+}
+
+.section {
+  padding: 3rem 2rem;
+  max-width: 900px;
+  margin: auto;
+}
+
+.section h2 {
+  color: #6a0dad;
+  margin-bottom: 1rem;
+}
+
+.skills-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+  gap: 1rem;
+}
+
+footer {
+  text-align: center;
+  padding: 1rem;
+  background-color: #6a0dad;
+  color: white;
+  margin-top: 2rem;
+}
